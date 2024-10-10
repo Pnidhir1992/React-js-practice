@@ -1,0 +1,18 @@
+body{
+    width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.center-div{
+    width: auto;
+    background: #fff;
+    max-height: 500px;
+   display: grid;
+   align-items: center;
+   justify-content: center;
+   padding: 30px;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}

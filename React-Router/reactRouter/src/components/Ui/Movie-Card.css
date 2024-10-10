@@ -1,0 +1,26 @@
+img{
+    width: 50%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin: 50px;
+}
+
+.new-grid{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+p{
+    text-align: left;
+}
+
+.text-new{
+    font-size: 12px;
+    margin: 20px 0px;
+}

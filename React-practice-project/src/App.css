@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wdth,wght@75..125,100..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anek Malayalam", sans-serif;
+}
+
+.container{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 1px 8px 4px #ddd;
+}
+.logo{
+  max-height: 80px;
+}
+.logo > img{
+width: 110px;
+height: auto;
+
+}
+
+ul{
+  display: flex;
+gap: 30px;
+align-items: center;
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #4372B8;
+}
+
+.btn{
+  background-color: transparent;
+  border: 1px solid #01204e;
+  border-radius: 30px;
+  padding: 5px 20px;
+  cursor: pointer;
+  color: #01204e;
+  font-weight: 600;
+}
+
+.hero-section{
+  padding: 50px 0px;
+}
+
+.grid-columne-tow{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+.contacnt-part{
+  padding: 15px;
+}
+
+.contacnt-part h1{
+  font-size: 5rem;
+  margin-bottom: 5px;
+}
+.divider-line{
+  height: 0.5px;
+  width: 50%;
+  background-color: #01204e;
+  display: block;
+  border-radius: 30px;
+
+}
+.contacnt-part p{
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 70%;
+}
+
+.btn-primary{
+  background-color: #4372B8 ;
+  border: 1px solid #01204e;
+  border-radius: 30px;
+  padding: 15px 50px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  margin-right: 30px;
+}
+
+.btn-secondary{
+  background-color: transparent;
+  cursor: pointer;
+  color: #01204e;
+  border: none;
+  font-weight: 600;
+  border-bottom: 1px solid #01204e;
+  font-size: 1.05rem;
+}
